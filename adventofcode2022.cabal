@@ -43,3 +43,9 @@ executable day06
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall
+
+executable day07
+  main-is: day07.lhs
+  build-depends: base, containers, filepath, mtl
+  default-language: GHC2021
+  ghc-options: -Wall -Wno-incomplete-patterns
