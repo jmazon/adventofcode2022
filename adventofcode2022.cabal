@@ -49,3 +49,9 @@ executable day07
   build-depends: base, containers, filepath, mtl
   default-language: GHC2021
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day08
+  main-is: day08.lhs
+  build-depends: base, array, linear
+  default-language: GHC2021
+  ghc-options: -Wall
