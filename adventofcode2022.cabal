@@ -55,3 +55,10 @@ executable day08
   build-depends: base, array, linear
   default-language: GHC2021
   ghc-options: -Wall
+
+executable day09
+  main-is: day09.lhs
+  build-depends: base, containers, linear
+  default-language: GHC2021
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
