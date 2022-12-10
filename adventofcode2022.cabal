@@ -62,3 +62,10 @@ executable day09
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day10
+  main-is: day10.lhs
+  build-depends: base, mtl, split
+  default-language: GHC2021
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
