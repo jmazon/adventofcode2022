@@ -69,3 +69,10 @@ executable day10
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day11
+  main-is: day11.lhs
+  build-depends: base, lens, mtl, primitive, split, vector
+  default-language: GHC2021
+  default-extensions: AllowAmbiguousTypes, RecordWildCards, TemplateHaskell, ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
