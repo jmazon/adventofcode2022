@@ -76,3 +76,9 @@ executable day11
   default-language: GHC2021
   default-extensions: AllowAmbiguousTypes, RecordWildCards, TemplateHaskell, ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day12
+  main-is: day12.lhs
+  build-depends: base, array, containers
+  default-language: GHC2021
+  ghc-options: -Wall -Wno-incomplete-uni-patterns
