@@ -82,3 +82,16 @@ executable day12
   build-depends: base, array, containers
   default-language: GHC2021
   ghc-options: -Wall -Wno-incomplete-uni-patterns
+
+executable day13
+  main-is: day13.lhs
+  build-depends: base, aeson, bytestring, scientific
+  default-language: GHC2021
+  ghc-options: -Wall -Wno-type-defaults -Wno-incomplete-patterns
+
+executable day14
+  main-is: day14.hs
+  build-depends: base, array, containers, lens, linear, mtl, split
+  default-language: GHC2021
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
