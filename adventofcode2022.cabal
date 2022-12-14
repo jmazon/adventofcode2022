@@ -90,8 +90,8 @@ executable day13
   ghc-options: -Wall -Wno-type-defaults -Wno-incomplete-patterns
 
 executable day14
-  main-is: day14.hs
-  build-depends: base, array, containers, lens, linear, mtl, split
+  main-is: day14.lhs
+  build-depends: base, array, lens, linear, mtl, split
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
