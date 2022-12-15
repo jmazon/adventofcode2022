@@ -95,3 +95,10 @@ executable day14
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day15
+  main-is: day15.lhs
+  build-depends: base, lens, linear, intervals
+  default-language: GHC2021
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
