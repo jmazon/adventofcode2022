@@ -102,3 +102,10 @@ executable day15
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day16
+  main-is: day16.lhs
+  build-depends: base, array, containers, mtl, transformers
+  default-language: GHC2021
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
