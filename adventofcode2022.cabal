@@ -109,3 +109,10 @@ executable day16
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
+
+executable day17
+  main-is: day17.lhs
+  build-depends: base, array, containers, lens, linear, mtl, vector
+  default-language: GHC2021
+  default-extensions: NoMonomorphismRestriction, TemplateHaskell, TypeFamilies
+  ghc-options: -Wall -Wno-incomplete-patterns
