@@ -123,3 +123,10 @@ executable day18
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
+
+executable day19
+  main-is: day19.lhs
+  build-depends: base, lens, linear, vector
+  default-language: GHC2021
+  default-extensions: ImpredicativeTypes, LambdaCase, MultiWayIf, RecordWildCards, TemplateHaskell, ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
