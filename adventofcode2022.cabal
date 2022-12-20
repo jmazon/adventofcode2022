@@ -130,3 +130,10 @@ executable day19
   default-language: GHC2021
   default-extensions: ImpredicativeTypes, LambdaCase, MultiWayIf, RecordWildCards, TemplateHaskell, ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day20
+  main-is: day20.lhs
+  build-depends: base, containers
+  default-language: GHC2021
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
