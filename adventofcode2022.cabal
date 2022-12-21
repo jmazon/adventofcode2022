@@ -139,7 +139,8 @@ executable day20
   ghc-options: -Wall -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
 
 executable day21
-  main-is: day21.hs
-  build-depends: base, containers, holmes
+  main-is: day21.lhs
+  build-depends: base, containers, sbv
   default-language: GHC2021
-  ghc-options: -Wall
+  default-extensions: ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns
