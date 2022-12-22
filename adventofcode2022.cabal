@@ -144,3 +144,10 @@ executable day21
   default-language: GHC2021
   default-extensions: ViewPatterns
   ghc-options: -Wall -Wno-incomplete-patterns
+
+executable day22
+  main-is: day22.lhs
+  build-depends: base, array, containers, lens, linear, split
+  default-language: GHC2021
+  default-extensions: MultiWayIf, RecordWildCards, TypeFamilies, ViewPatterns
+  ghc-options: -Wall -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
