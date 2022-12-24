@@ -159,8 +159,8 @@ executable day23
   default-language: GHC2021
 
 executable day24
-  main-is: day24.hs
-  ghc-options: -Wall
+  main-is: day24.lhs
+  ghc-options: -Wall -Wno-incomplete-uni-patterns
   build-depends: base, array, containers, linear
   default-language: GHC2021
   default-extensions: RecordWildCards, ViewPatterns
