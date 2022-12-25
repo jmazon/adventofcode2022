@@ -164,3 +164,10 @@ executable day24
   build-depends: base, array, containers, linear
   default-language: GHC2021
   default-extensions: RecordWildCards, ViewPatterns
+
+executable day25
+  main-is: day25.lhs
+  ghc-options: -Wall -Wno-incomplete-patterns
+  build-depends: base
+  default-language: GHC2021
+  default-extensions: MultiWayIf
